@@ -1,6 +1,7 @@
 var jsreport = require('jsreport-core')();
 var fs = require('fs');
 var path = require('path');
+jsreport.use(require('jsreport-xlsx')());
 jsreport.use(require('jsreport-html-to-xlsx')());
 jsreport.use(require('jsreport-jsrender')());
 var template = path.join(__dirname,'template');

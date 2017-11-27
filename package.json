@@ -6,7 +6,8 @@
   "dependencies": {
     "jsreport-core": "^1.5.1",
     "jsreport-html-to-xlsx": "^1.4.6",
-    "jsreport-jsrender": "^1.0.2"
+    "jsreport-jsrender": "^1.0.2",
+    "jsreport-xlsx": "^1.4.1"
   },
   "devDependencies": {},
   "scripts": {
